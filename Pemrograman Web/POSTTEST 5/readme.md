@@ -1,4 +1,7 @@
 Berikut Videonya : 
 
-https://github.com/miezlearning/Kuliah/assets/129609799/7ac222b9-97b9-4127-b07e-be1e3087473d
+
+
+
+https://github.com/miezlearning/Kuliah/assets/129609799/fdb71371-458a-41c5-8bf9-9c9a3a1cae77
 
