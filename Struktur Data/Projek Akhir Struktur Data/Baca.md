@@ -1,9 +1,9 @@
-# Proyek Akhir - [Nama Proyek]
+# Proyek Akhir - Penjualan Warung Makan Indomie
 
 ## Kelompok
-- [Anggota 1]
-- [Anggota 2]
-- [Anggota 3]
+- Muhammad Alif 127
+- Febrian Zuhri Yahya 121
+- Muhammad Yusuf Efendi 139
 
 ## Tema
 [Bebas Pantas - Link ke daftar tema]
