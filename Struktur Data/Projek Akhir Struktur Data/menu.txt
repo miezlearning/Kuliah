@@ -1,0 +1,5 @@
+4
+1,            Mie Rebus,            Makanan, 8500
+2,           Es Jeruk,           Minuman, 6000
+3, Mie Internet, Makanan, 5200
+4,      Mie Aceh,      Makanan, 3000
