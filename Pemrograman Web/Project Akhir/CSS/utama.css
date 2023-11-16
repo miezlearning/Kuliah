@@ -1,0 +1,611 @@
+/* Font Google */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+/* Font Minecraft */
+
+@font-face {
+  font-family: menkrep;
+  src: url('../Font/Minecraft.ttf');
+}
+
+.menkrep {
+  font-family: menkrep;
+}
+/* Add this CSS to your existing styles or create a new stylesheet */
+
+/* CSS */
+.about-container {
+  margin: 65px auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  overflow: hidden; 
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-text {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.about-text h2 {
+  font-family: menkrep;
+  font-size: 50px;
+  color: #333;
+}
+
+.about-text p {
+  line-height: 1.5;
+  font-size: 20px;
+  color: #555;
+}
+
+.about-image img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Add a subtle zoom effect on hover */
+.about-image img:hover {
+  transform: scale(1.05);
+}
+
+/* Dark mode styles */
+.dark-mode .about-container {
+  background-color: #333;
+}
+
+.dark-mode .about-text h2,
+.dark-mode .about-text p {
+  color: #fff;
+}
+
+.dark-mode .about-image img {
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+
+.container {
+  width: 100%;
+}
+
+.popup {
+  display: absolute;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 9999;
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-family: 'Montserrat', sans-serif;
+  transform: translate(-50%, -50%);
+}
+
+.popup-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.popup-content p {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#close-popup {
+  position: relative;
+  padding: 10px 20px;
+  background-color: #e12929;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+
+#close-popup::after {
+  content: '';
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: top 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+#close-popup:hover::after {
+  top: 0;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#close-popup:active {
+  transform: scale(0.95);
+}
+
+
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  margin-top: 60px;
+  /* Sesuaikan dengan tinggi navbar */
+  padding: 20px;
+}
+
+
+
+
+.light-mode {
+  /* Tambahkan properti CSS untuk light mode di sini */
+  background-color: #fff;
+  color: #fff;
+}
+
+.dark-mode #mode-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+#mode-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 35px;
+  border: none;
+  background-color: transparent;
+  color: #333;
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+#mode-toggle:hover {
+  color: #ff9800;
+}
+
+#mode-toggle i {
+  transition: transform 0.3s ease;
+}
+
+.dark-mode #mode-toggle i {
+  transform: rotate(180deg);
+}
+
+
+.dark-mode {
+  /* Tambahkan properti CSS untuk dark mode di sini */
+  background-color: #333;
+}
+
+.dark-mode .card-content {
+  color: #fff;
+}
+
+.dark-mode .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(51, 51, 51, 0.5);
+  padding: 0px 15px;
+  color: #fff;
+  z-index: 50;
+
+}
+
+.dark-mode .card {
+  width: 300px;
+  background-color: #333;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(241, 58, 58, 0.2);
+  overflow: hidden;
+}
+
+.dark-mode .menu li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.dark-mode .menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  position: relative;
+}
+
+.dark-mode footer {
+  font-family: menkrep;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin-top: auto;
+}
+
+.dark-mode .menu a:before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(238, 238, 238, 0.5);
+  padding: 0px 15px;
+  color: #333;
+  z-index: 999;
+}
+
+.logo img {
+  width: 50px;
+  height: auto;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.menu a {
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+  position: relative;
+}
+
+
+.menu a:before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #333;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.menu a:hover:before {
+  transform: scaleX(1);
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+svg {
+  width: 25px;
+}
+
+.menu .icon-cart {
+  position: relative;
+  right: 22px;
+  top: 8px;
+}
+
+.menu .icon-cart span {
+  display: flex;
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  right: -20px;
+}
+
+.cartTab {
+  width: 400px;
+  background-color: #353432;
+  color: #eee;
+  position: fixed;
+  inset: 70px -400px 0 auto;
+  display: grid;
+  grid-template-rows: 70px 1fr 70px;
+
+}
+
+body.showcart .cartTab {
+  inset: 70px 0 0 auto;
+}
+
+
+
+.cartTab h1 {
+  padding: 20px;
+  margin: 0;
+  font-weight: 300;
+}
+
+.cartTab .btn {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.cartTab .btn button {
+  background-color: #e8bc0e;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.cartTab .btn .closebtn {
+  background-color: #eee;
+}
+
+.cartTab .listCart .item img {
+  width: 100%;
+}
+
+.cartTab .listCart .item {
+  display: grid;
+  grid-template-columns: 70px 150px 50px 1fr;
+  gap: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+.listCart .quantity span {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: #eee;
+  color: #555;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.listCart .quantity span:nth-child(2) {
+  background-color: transparent;
+  color: #eee;
+}
+
+.listCart .item:nth-child(even) {
+  background-color: #eee1;
+}
+
+.listCart {
+  overflow: auto;
+}
+
+.listCart::-webkit-scrollbar {
+  width: 0;
+}
+
+.landing-page {
+  flex: 1;
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(45deg, #FFC700, #FF4A00, #FF009D, #FF0062);
+}
+
+.beli {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #4CAF50;
+  color: #FFFFFF;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+
+.beli:hover {
+  background-color: #45a049;
+}
+
+.beli:active {
+  transform: scale(0.95);
+}
+
+.produk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+
+.skin {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(70, 241, 58, 0.2);
+  overflow: hidden;
+  
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.card-content h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.card-content p {
+  margin: 5px 0;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  /* background: linear-gradient(45deg, #FFC700, #FF4A00, #FF009D, #FF0062); */
+  opacity: 0.6;
+  z-index: -1;
+  
+  transition: opacity 0.3s ease-in-out;
+}
+
+.card:hover:after {
+  opacity: 0.9;
+}
+
+.card-content button {
+  background-color: #ff4c4c;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bel {
+  background-color: #ff4c4c;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  font-family: 'menkrep', sans-serif; /* Assuming 'menkrep' is a custom font */
+  background-color: #fff;
+  color: #444;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+}
+
+/* Style the individual paragraphs in the footer */
+#footer p {
+  margin: 5px 0;
+}
+
+/* Add some hover effect to make it more interactive */
+footer:hover {
+  background: linear-gradient(45deg, #FFC700, #FF4A00, #FF009D, #FF0062);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Scroll Bar */
+
+
+/* Style the WebKit scrollbar */
+::-webkit-scrollbar {
+  width: 12px; /* Lebar scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #333; /* Warna latar belakang track scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4caf50; /* Warna thumb scrollbar */
+  border-radius: 6px; /* Rounded corners untuk thumb */
+  border: 3px solid #333; /* Warna border thumb scrollbar */
+  transition: background-color 0.3s; /* Animasi perubahan warna saat hover */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #45a049; /* Warna thumb scrollbar saat dihover */
+}
+
+/* Dark mode styles */
+.dark-mode ::-webkit-scrollbar-track {
+  background-color: #555; /* Warna latar belakang track scrollbar di dark mode */
+}
+
+.dark-mode ::-webkit-scrollbar-thumb {
+  background-color: #00bcd4; /* Warna thumb scrollbar di dark mode */
+  border-color: #555; /* Warna border thumb scrollbar di dark mode */
+  transition: background-color 0.3s; /* Animasi perubahan warna saat hover di dark mode */
+}
+
+.dark-mode ::-webkit-scrollbar-thumb:hover {
+  background-color: #0097a7; /* Warna thumb scrollbar saat dihover di dark mode */
+}

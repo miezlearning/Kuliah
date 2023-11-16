@@ -1,0 +1,190 @@
+* {
+    font-family: "Trebuchet MS";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Trebuchet MS";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+}
+
+.container {
+    /* max-width: 800px; */
+    margin: 0 auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: salmon;
+    text-align: center;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: salmon;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    text-transform: uppercase;
+    color:  black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 71.5px;
+    margin-right: 71.5px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+/* Add this style for the file input */
+form input[type="file"] {
+    display: block; /* Hide the default file input */
+}
+
+.custom-file-input {
+    background-color: salmon;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+/* Styling for the file name display */
+.file-name {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+/* Styling for the label container */
+.file-input-container {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+/* Style for the label text */
+.file-input-label {
+    background-color: salmon;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+}
+
+/* Styling for the hidden file input */
+.file-input-hidden {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+form button {
+    background-color: salmon;
+    color: #fff;
+    padding: 10px 50px;
+    border: none;
+    cursor: pointer;
+}
+
+table {
+    border: solid 1px #DDEEEE;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 90%;
+    margin: 10px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease-out;
+}
+
+th {
+    background-color: #DDEFEF;
+    border: solid 1px #DDEEEE;
+    color: #336B6B;
+    padding: 10px;
+    text-align: left;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+td {
+    border: solid 1px #DDEEEE;
+    color: #333;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+
+a {
+    
+    color: #fff;
+    padding: 7.5px;
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 50px;
+}
+
+.logout {
+    background-color: salmon;
+    margin-left: auto; /* Menempatkan Logout di ujung kanan */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#remove-button {
+    background-color: #ff6666;
+    color: #fff;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#image-container {
+
+    display: none; /* Initially hide the image container */
+}
+
+
