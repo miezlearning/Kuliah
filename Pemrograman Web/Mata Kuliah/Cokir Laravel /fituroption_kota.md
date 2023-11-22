@@ -8,3 +8,7 @@
 
 > [!NOTE] INFORMASI
 > Test halo halo
+
+> 👍 Success
+> 
+> Vitae reprehenderit at aliquid error voluptates eum dignissimos.
