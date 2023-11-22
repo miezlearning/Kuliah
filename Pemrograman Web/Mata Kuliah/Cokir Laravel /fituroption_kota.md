@@ -1,3 +1,3 @@
 > [!NOTE]
-> Pada instruksi dibawah ini jika ada yang dibingungkan silahkan bertanya digrup atau Chat
-
+> **Judul Baru:** Informasi yang ingin Anda sertakan
+> - [ ] https://github.com/octo-org/octo-repo/issues/740
