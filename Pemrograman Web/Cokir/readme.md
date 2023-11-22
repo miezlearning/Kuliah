@@ -142,6 +142,14 @@ $(document).ready(function () {
 ```
 
 
+# Video Instruksi
+
+
+
+https://github.com/miezlearning/Kuliah/assets/129609799/cc6c4800-982a-4ca2-b0a1-62683fd568ce
+
+
+
 
 ## Contributing
 
