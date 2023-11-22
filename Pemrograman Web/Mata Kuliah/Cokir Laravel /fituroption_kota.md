@@ -1,3 +1,3 @@
-> [!NOTE]
-> Highlights information that users should take into account, even when skimming.
-> - [ ] https://github.com/octo-org/octo-repo/issues/740
+> [!Baca]
+> Pada instruksi dibawah ini jika ada yang dibingungkan silahkan bertanya digrup atau Chat
+
