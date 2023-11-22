@@ -1,5 +1,4 @@
-> [!NOTE]
-> Jika ada yang dibingungkan silahkan bertanya di **grup** atau di **chat** saja.
+
 
 ### 👻 Shortcut always make easier.
  📜 [**Ikuti Instruksi**](#instruksi)
@@ -226,3 +225,6 @@ Tidak banyak yang ditambahkan pada bagian ini, menambahkan `@foreach` untuk meng
     @endsection
 ```
 
+
+> [!NOTE]
+> Jika ada yang dibingungkan silahkan bertanya di **grup** atau di **chat** saja.
