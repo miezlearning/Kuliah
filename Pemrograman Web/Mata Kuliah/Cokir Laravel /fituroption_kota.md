@@ -1,6 +1,11 @@
 > [!NOTE]
 > Jika ada yang dibingungkan silahkan bertanya di **grup** atau di **chat** saja.
 
+### 👻 Shortcut always make easier.
+ 📜 [**Ikuti Instruksi**](#instruksi)
+ <br> - [Langkah Pertama](#langkah1) Tambahkan code yang dilampirkan
+ <br> - [Langkah Kedua](#langkah2) Tambahkan code yang dilampirkan
+
 # File 
 
 - `app\Http\Controllers\HomeController.php`  ( **Diubah** ) 
@@ -220,13 +225,4 @@ Tidak banyak yang ditambahkan pada bagian ini, menambahkan `@foreach` untuk meng
     
     @endsection
 ```
-
-
-
-
-
-### 👻 Shortcut always make easier.
-> 📜 [**Ikuti Instruksi**](#instruksi)
-> <br> - [Langkah Pertama](#langkah1) Tambahkan code yang dilampirkan
-> <br> - [Langkah Kedua](#langkah2) Tambahkan code yang dilampirkan
 
