@@ -8,7 +8,9 @@
 
 # Instruksi <a name="instruksi"></a>
 
-- **HomeController.php** 
+<div id="langkah1"/>
+
+- **HomeController.php**  
 
 Pada bagian ini ada beberapa bagian yang ditambah tepatnya pada:
 
@@ -90,6 +92,7 @@ class HomeController extends Controller
 }
 ```
 
+<div id="langkah2"/>
 
 - **home.blade.php**
 
@@ -220,4 +223,10 @@ Tidak banyak yang ditambahkan pada bagian ini, menambahkan `@foreach` untuk meng
 
 
 
-1. [Introduction](#instruksi)
+
+
+### 👻 Shortcut always make easier.
+> 📜 [**Ikuti Instruksi**](#instruksi)
+> <br> - [Langkah Pertama](#langkah1) Tambahkan code yang dilampirkan
+> <br> - [Langkah Kedua](#langkah2) Tambahkan code yang dilampirkan
+
