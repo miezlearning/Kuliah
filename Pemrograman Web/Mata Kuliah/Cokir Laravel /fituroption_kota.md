@@ -204,7 +204,6 @@ Tidak banyak yang ditambahkan pada bagian ini, menambahkan `@foreach` untuk meng
                     </div>
                     <div class="col">
                     <h5 class="text-muted">Pilih Expedisi:</h5>
-                    @foreach ($couriers as $id => $name)
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="checkbox" id="courierCheckbox{{ $id }}" name="couriers[]" value="{{ $id }}">
                             <label class="form-check-label" for="courierCheckbox{{ $id }}">{{ $name }}</label>
