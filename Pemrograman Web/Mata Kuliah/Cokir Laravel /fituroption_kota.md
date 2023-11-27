@@ -80,7 +80,6 @@ class HomeController extends Controller
     {
         $province = $this->getProvince();
         $cities = $this->getCities(); 
-        $couriers = $this->getCourier(); 
         return view('home', compact('province', 'cities'));
     }
 
