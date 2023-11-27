@@ -204,11 +204,19 @@ Tidak banyak yang ditambahkan pada bagian ini, menambahkan `@foreach` untuk meng
                     </div>
                     <div class="col">
                     <h5 class="text-muted">Pilih Expedisi:</h5>
+                         <h5 class="text-muted">Pilih Expedisi:</h5>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" id="courierCheckbox{{ $id }}" name="couriers[]" value="{{ $id }}">
-                            <label class="form-check-label" for="courierCheckbox{{ $id }}">{{ $name }}</label>
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1">JNE</label>
                         </div>
-                    @endforeach
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">TIKI</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">POS</label>
+                        </div>
                 </div>
             </div>
             <div class="form-row">
