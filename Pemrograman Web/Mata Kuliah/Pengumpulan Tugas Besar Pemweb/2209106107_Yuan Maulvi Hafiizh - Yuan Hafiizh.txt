@@ -1,0 +1,8 @@
+=== TUGAS BESAR UAS PEMROGRAMAN WEB ===
+
+Nama	: Yuan Maulvi Hafiizh
+Nim	: 2209106107
+Kelas	: Informatika C'22
+
+Link repo : https://github.com/wanderja22/2209106107_YuanMaulviHafiizh_LaravelCekOngkir
+Link Youtube : https://www.youtube.com/watch?v=fjVcDRig_K4

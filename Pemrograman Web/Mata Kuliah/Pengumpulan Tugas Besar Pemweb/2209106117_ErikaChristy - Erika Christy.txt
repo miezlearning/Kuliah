@@ -1,0 +1,11 @@
+NAMA		: ERIKA CHRISTY
+NIM		: 2209106117
+ANGKATAN/KELAS	: C 2022
+TUGAS WEB | LARAVEL
+
+
+LINK YOUTUBE
+https://youtu.be/GG5q3lMwVu0
+
+LINK REPO
+https://github.com/christyyy18/web.git
