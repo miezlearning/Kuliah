@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="JS/jquery.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toko Skin Minecraft</title>
+  <link rel="stylesheet" type="text/css" href="CSS/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"><link rel="stylesheet" type="text/css" href="CSS/style.css"></head>
+<body>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+          <h2>Selamat datang di Toko Skin Minecraft!</h2>
+          <p>Nikmati berbagai skin Minecraft keren dengan harga terbaik.</p>
+          <button id="close-popup">Tutup</button>
+        </div>
+    </div>
+      
+
+  <nav class="navbar">
+    <div class="logo">
+      <img src="Gambar/Shopkeepers_Logo.png" alt="Minecraft Logo">
+    </div>
+    <ul class="menu">
+      <li><a href="#produks">Beranda</a></li>
+      <li class="dropdown">
+        <a href="#produks">Produk</a>
+        <div class="dropdown-content">
+          <a href="#skin1">Skin 1</a>
+          <a href="#skin2">Skin 2</a>
+        </div>
+      </li>
+      <li><a href="#footer">Kontak</a></li>
+      <li><button id="mode-toggle"><i class="fas fa-sun"></i></button></li>
+    </ul>
+  </nav>
+
+  <div id="produks" class="landing-page">
+    <h1 class="menkrep">Selamat Datang di Toko Skin Minecraft!</h1>
+    <div class="produk">
+      <div id="skin1" class="skin">
+        <div class="card">
+          <img src="Gambar/skin1.png" alt="Skin 1">
+          <div class="card-content">
+            <h2>Skin 1</h2>
+            <p>Harga: $10</p>
+            <button class="beli">Beli</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="skin2" class="skin">
+        <div class="card">
+          <img src="Gambar/skin2.png" alt="Skin 2">
+          <div class="card-content">
+            <h2>Skin 2</h2>
+            <p>Harga: $15</p>
+            <button class="beli">Beli</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div id="footer" class="footer-content">
+      <p>&copy; 2023 Toko Skin Minecraft</p>
+      <p>Alamat: Jalan Minecraft, Blok A, No. 123</p>
+      <p>Email: info@tokoskinminecraft.com</p>
+    </div>
+  </footer>
+
+  <script src="JS/popup.js"></script>
+  <script src="JS/script.js"></script>
+</body>
+</html>

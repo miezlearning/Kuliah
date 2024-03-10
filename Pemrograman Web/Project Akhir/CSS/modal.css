@@ -1,0 +1,122 @@
+/* Gaya umum untuk modal */
+.modal {
+  display: none;
+  /* Modal disembunyikan secara default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  /* Latar belakang semi-transparan */
+  z-index: 1;
+  overflow: auto;
+}
+
+/* Gaya untuk konten dalam modal */
+.dark-mode .modal-content {
+  background-color: #333;
+  margin: 15% auto;
+  /* Jarakkan modal dari atas */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 400px;
+  /* Lebar maksimum konten modal */
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Gaya untuk konten dalam modal */
+.modal-content {
+  background-color: #fff;
+  margin: 15% auto;
+  /* Jarakkan modal dari atas */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 400px;
+  /* Lebar maksimum konten modal */
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Gaya tombol untuk menutup modal */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
+/* Gaya tombol "Beli" atau tombol lainnya dalam modal Anda */
+.beli {
+  background-color: #008CBA;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* Gaya untuk pesan terkirim */
+#myModalTerkirim .modal-content {
+  text-align: center;
+}
+
+/* Responsif: Sesuaikan lebar modal untuk layar yang lebih kecil */
+@media screen and (max-width: 600px) {
+  .modal-content {
+    width: 90%;
+  }
+}
+
+/* CSS untuk modal konfirmasi */
+#confirmationModal {
+  align-items: center;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+
+/* Style untuk pesan konfirmasi */
+#confirmationMessage {
+  text-align: left;
+  margin: 25px 0px;
+}
+
+
+
+/* Style untuk pesan konfirmasi */
+.dark-mode #confirmationMessage {
+  color: #fff;
+  text-align: left;
+  margin: 25px 0px;
+}
+
+/* Style untuk tombol konfirmasi dan pembatalan */
+#confirmSubmit,
+#cancelSubmit {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#cancelSubmit:hover {
+  background-color: red;
+}

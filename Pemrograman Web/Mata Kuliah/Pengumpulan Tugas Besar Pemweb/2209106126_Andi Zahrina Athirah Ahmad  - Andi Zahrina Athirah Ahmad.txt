@@ -1,0 +1,15 @@
+TUGAS BESAR PEMROGRAMAN WEB "PROJEK COKIR"
+
+Nama  : Andi Zahrina Athirah Ahmad
+NIM   : 2209106126
+Kelas : C22
+
+
+link Repository Github Project Cokir
+https://github.com/2209106126-azahrinathirah/Project_Laravel_Cokir
+
+Link Youtube Video Penjelasan Projek Cokir
+https://youtu.be/BGbJPJsV9Ew
+
+
+

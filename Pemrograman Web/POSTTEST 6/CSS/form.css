@@ -1,0 +1,132 @@
+
+
+
+/* Styling untuk form hubungi kami */
+.dark-mode .contact-form {
+    margin: 20px auto; /* Menengahkan formulir */
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(245, 12, 12, 0.2);
+    max-width: 600px; /* Batasi lebar maksimum */
+    width: 90%; /* Lebar responsif */
+    box-sizing: border-box; /* Hindari scroll horizontal */
+  }
+  .dark-mode .contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .dark-mode .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dark-mode .contact-form label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .dark-mode .contact-form input[type="text"],
+  .dark-mode .contact-form input[type="email"],
+  .dark-mode .contact-form textarea {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+  }
+  
+  .dark-mode .contact-form textarea {
+    resize: none;
+    min-height: 150px;
+  }
+  
+  .dark-mode .contact-form button {
+    padding: 15px 30px;
+    background-color: #ff4646;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dark-mode .contact-form button:hover {
+    background-color: #ff3030;
+  }
+  
+ 
+  
+  .contact-form:hover .backlight {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+
+
+  .contact-form {
+    margin: 20px auto; /* Menengahkan formulir */
+    padding: 20px;
+    background-color: #fff; /* Warna latar belakang putih */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Ubah bayangan menjadi abu-abu */
+    max-width: 600px; /* Batasi lebar maksimum */
+    width: 90%; /* Lebar responsif */
+    box-sizing: border-box; /* Hindari scroll horizontal */
+  }
+  .contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333; /* Warna teks gelap */
+    text-align: center;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333; /* Warna teks gelap */
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #eee; /* Warna latar belakang abu-abu terang */
+    color: #333; /* Warna teks gelap */
+  }
+  
+  .contact-form textarea {
+    resize: none;
+    min-height: 150px;
+  }
+  
+  .contact-form button {
+    padding: 15px 30px;
+    background-color: #ff4646;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #ff3030;
+  }
+  
+
+  
